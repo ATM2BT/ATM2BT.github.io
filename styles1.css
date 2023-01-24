@@ -199,12 +199,12 @@ p {
   }
 
 
-#Message {
+#message {
     width: 100%;
     height: 20em;
 }
 
-.Message {
+.message {
     padding: 0.5em;
     border: 1px solid black;
     outline: none;
