@@ -1,0 +1,239 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(58, 52, 58);
+    font-size: 18px;
+    text-rendering: optimizelegibility;
+}
+
+html, body {
+    font-family: Inter, sans-serif;
+    text-rendering: optimizelegibility;
+    line-height: 1.4;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.styledmain {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.styledmaininner {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.mainpage {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 3em 1em;
+}
+
+@media (max-width: 768px) {
+    .mainpage {
+        flex-direction: column;
+    }
+    .twitter-timeline {
+        display: none;
+    }
+}
+
+
+
+.sidebar {
+    max-width: 21rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
+    font-size: 80%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    border-radius: 0%;
+}
+
+.imgtxt {
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+.socials {
+    margin-top: 0.7em;
+    opacity: 0.7;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: left;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 1em 0em;
+}
+
+li {
+    margin-bottom: 0.7rem;
+    padding-left: 1.4rem;
+}
+
+.navbar li {
+    margin-left: -0.5em;
+    padding-left: 0em;
+}
+
+.navbar li a {
+    outline: none;
+    border-left: 1px solid transparent;
+    padding: 0.5em;
+    font-weight: 700;
+}
+
+.navbar li a.active {
+    border-left: 1px solid rgb(76, 86, 106);
+}
+
+.mainbody {
+    max-width: 680px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.article {
+    margin: 2em 0em;
+}
+
+.date {
+    font-size: 80%;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.articletitle {
+    font-weight: 600;
+    margin: 0.2em 0em;
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.articledescription {
+    margin: 0px;
+    font-size: 80%;
+}
+
+.blogpost {
+    max-width: 680px;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+.blogpost_home {
+    max-width: 680px;
+    margin: 0px 0px;
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.blogposttitle {
+    width: 100%;
+    text-align: left;
+    margin: 2.8rem 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+#Message {
+    width: 100%;
+    height: 20em;
+}
+
+.Message {
+    padding: 0.5em;
+    border: 1px solid black;
+    outline: none;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    font-size: 70%;
+}
+
+.fcf-label {
+    font-size: 80%;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-variant: small-caps;
+    margin-top: 1em;
+    display: block;
+}
+
+.fcf-btn {
+    font-size: 80%;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-variant: small-caps;
+    background: transparent;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    cursor: pointer;
+}
