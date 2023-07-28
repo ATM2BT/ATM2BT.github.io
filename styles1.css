@@ -74,6 +74,9 @@ a {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: left;
+    :hover {
+        background-color: #DDDDDD;
+      }
 }
 
 .navbar {
@@ -236,4 +239,15 @@ p {
     padding: 0.5em 1em;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.banner {
+    border-radius: 4px;
+    display: flex;
+}
+  
+.banner img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
 }
